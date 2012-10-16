@@ -1,234 +1,121 @@
 /* FC Webicons by Fairhead Creative http://fairheadcreative.com */
-
-.fc-webicon { display: inline-block; background-size: 100%; width: 30px; height: 30px; text-indent: -999em; text-align: left; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; margin-bottom: 5px; }
-.fc-webicon:hover { margin: -1px 0 1px; -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); }
+.fc-webicon {position:relative; display: inline-block; background-size: 100%; width: 30px; height: 30px; text-indent: -999em; text-align: left; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; margin-bottom: 5px; }
+.fc-webicon:hover { -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); }
 .fc-webicon.small { width: 20px; height: 20px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
 .fc-webicon.large { width: 48px; height: 48px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
 
-/* Behance */
-.no-svg .fc-webicon.behance { background: image-url("/fc-webicon-behance-m.png"); }
-.no-svg .fc-webicon.behance.large { background: image-url("/fc-webicon-behance.png"); }
-.no-svg .fc-webicon.behance.small { background: image-url("/fc-webicon-behance-s.png"); }
-.svg .fc-webicon.behance { background: image-url("/fc-webicon-behance.svg"); }
 
-/* Creative Cloud */
-.no-svg .fc-webicon.creativecloud { background: image-url("/fc-webicon-creativecloud-m.png"); }
-.no-svg .fc-webicon.creativecloud.large { background: image-url("/fc-webicon-creativecloud.png"); }
-.no-svg .fc-webicon.creativecloud.small { background: image-url("/fc-webicon-creativecloud-s.png"); }
-.svg .fc-webicon.creativecloud { background: image-url("/fc-webicon-creativecloud.svg"); }
-
-/* Dribbble */
-.no-svg .fc-webicon.dribbble { background: image-url("/fc-webicon-dribbble-m.png"); }
-.no-svg .fc-webicon.dribbble.large { background: image-url("/fc-webicon-dribbble.png"); }
-.no-svg .fc-webicon.dribbble.small { background: image-url("/fc-webicon-dribbble-s.png"); }
-.svg .fc-webicon.dribbble { background: image-url("/fc-webicon-dribbble.svg"); }
-
-/* Dropbox */
-.no-svg .fc-webicon.dropbox { background: image-url("/fc-webicon-dropbox-m.png"); }
-.no-svg .fc-webicon.dropbox.large { background: image-url("/fc-webicon-dropbox.png"); }
-.no-svg .fc-webicon.dropbox.small { background: image-url("/fc-webicon-dropbox-s.png"); }
-.svg .fc-webicon.dropbox { background: image-url("/fc-webicon-dropbox.svg"); }
-
-/* Evernote */
-.no-svg .fc-webicon.evernote { background: image-url("/fc-webicon-evernote-m.png"); }
-.no-svg .fc-webicon.evernote.large { background: image-url("/fc-webicon-evernote.png"); }
-.no-svg .fc-webicon.evernote.small { background: image-url("/fc-webicon-evernote-s.png"); }
-.svg .fc-webicon.evernote { background: image-url("/fc-webicon-evernote.svg"); }
-
-/* Facebook */
-.no-svg .fc-webicon.facebook { background: image-url("/fc-webicon-facebook-m.png"); }
-.no-svg .fc-webicon.facebook.large { background: image-url("/fc-webicon-facebook.png"); }
-.no-svg .fc-webicon.facebook.small { background: image-url("/fc-webicon-facebook-s.png"); }
-.svg .fc-webicon.facebook { background: image-url("/fc-webicon-facebook.svg"); }
-
-/* Flickr */
-.no-svg .fc-webicon.flickr { background: image-url("/fc-webicon-flickr-m.png"); }
-.no-svg .fc-webicon.flickr.large { background: image-url("/fc-webicon-flickr.png"); }
-.no-svg .fc-webicon.flickr.small { background: image-url("/fc-webicon-flickr-s.png"); }
-.svg .fc-webicon.flickr { background: image-url("/fc-webicon-flickr.svg"); }
-
-/* Foursquare */
-.no-svg .fc-webicon.foursquare { background: image-url("/fc-webicon-foursquare-m.png"); }
-.no-svg .fc-webicon.foursquare.large { background: image-url("/fc-webicon-foursquare.png"); }
-.no-svg .fc-webicon.foursquare.small { background: image-url("/fc-webicon-foursquare-s.png"); }
-.svg .fc-webicon.foursquare { background: image-url("/fc-webicon-foursquare.svg"); }
-
-/* Github */
-.no-svg .fc-webicon.github { background: image-url("/fc-webicon-github-m.png"); }
-.no-svg .fc-webicon.github.large { background: image-url("/fc-webicon-github.png"); }
-.no-svg .fc-webicon.github.small { background: image-url("/fc-webicon-github-s.png"); }
-.svg .fc-webicon.github { background: image-url("/fc-webicon-github.svg"); }
-
-/* Google+ */
-.no-svg .fc-webicon.googleplus { background: image-url("/fc-webicon-googleplus-m.png"); }
-.no-svg .fc-webicon.googleplus.large { background: image-url("/fc-webicon-googleplus.png"); }
-.no-svg .fc-webicon.googleplus.small { background: image-url("/fc-webicon-googleplus-s.png"); }
-.svg .fc-webicon.googleplus { background: image-url("/fc-webicon-googleplus.svg"); }
-
-/* iCloud */
-.no-svg .fc-webicon.icloud { background: image-url("/fc-webicon-icloud-m.png"); }
-.no-svg .fc-webicon.icloud.large { background: image-url("/fc-webicon-icloud.png"); }
-.no-svg .fc-webicon.icloud.small { background: image-url("/fc-webicon-icloud-s.png"); }
-.svg .fc-webicon.icloud { background: image-url("/fc-webicon-icloud.svg"); }
-
-/* Instagram */
-.no-svg .fc-webicon.instagram { background: image-url("/fc-webicon-instagram-m.png"); }
-.no-svg .fc-webicon.instagram.large { background: image-url("/fc-webicon-instagram.png"); }
-.no-svg .fc-webicon.instagram.small { background: image-url("/fc-webicon-instagram-s.png"); }
-.svg .fc-webicon.instagram { background: image-url("/fc-webicon-instagram.svg"); }
-
-/* Last.fm */
-.no-svg .fc-webicon.lastfm { background: image-url("/fc-webicon-lastfm-m.png"); }
-.no-svg .fc-webicon.lastfm.large { background: image-url("/fc-webicon-lastfm.png"); }
-.no-svg .fc-webicon.lastfm.small { background: image-url("/fc-webicon-lastfm-s.png"); }
-.svg .fc-webicon.lastfm { background: image-url("/fc-webicon-lastfm.svg"); }
-
-/* LinkedIn */
-.no-svg .fc-webicon.linkedin { background: image-url("/fc-webicon-linkedin-m.png"); }
-.no-svg .fc-webicon.linkedin.large { background: image-url("/fc-webicon-linkedin.png"); }
-.no-svg .fc-webicon.linkedin.small { background: image-url("/fc-webicon-linkedin-s.png"); }
-.svg .fc-webicon.linkedin { background: image-url("/fc-webicon-linkedin.svg"); }
-
-/* Mail */
-.no-svg .fc-webicon.mail { background: image-url("/fc-webicon-mail-m.png"); }
-.no-svg .fc-webicon.mail.large { background: image-url("/fc-webicon-mail.png"); }
-.no-svg .fc-webicon.mail.small { background: image-url("/fc-webicon-mail-s.png"); }
-.svg .fc-webicon.mail { background: image-url("/fc-webicon-mail.svg"); }
-
-/* Mixi */
-.no-svg .fc-webicon.mixi { background: image-url("/fc-webicon-mixi-m.png"); }
-.no-svg .fc-webicon.mixi.large { background: image-url("/fc-webicon-mixi.png"); }
-.no-svg .fc-webicon.mixi.small { background: image-url("/fc-webicon-mixi-s.png"); }
-.svg .fc-webicon.mixi { background: image-url("/fc-webicon-mixi.svg"); }
-
-/* MSN */
-.no-svg .fc-webicon.msn { background: image-url("/fc-webicon-msn-m.png"); }
-.no-svg .fc-webicon.msn.large { background: image-url("/fc-webicon-msn.png"); }
-.no-svg .fc-webicon.msn.small { background: image-url("/fc-webicon-msn-s.png"); }
-.svg .fc-webicon.msn { background: image-url("/fc-webicon-msn.svg"); }
-
-/* Pinterest */
-.no-svg .fc-webicon.pinterest { background: image-url("/fc-webicon-pinterest-m.png"); }
-.no-svg .fc-webicon.pinterest.large { background: image-url("/fc-webicon-pinterest.png"); }
-.no-svg .fc-webicon.pinterest.small { background: image-url("/fc-webicon-pinterest-s.png"); }
-.svg .fc-webicon.pinterest { background: image-url("/fc-webicon-pinterest.svg"); }
-
-/* Quora */
-.no-svg .fc-webicon.quora { background: image-url("/fc-webicon-quora-m.png"); }
-.no-svg .fc-webicon.quora.large { background: image-url("/fc-webicon-quora.png"); }
-.no-svg .fc-webicon.quora.small { background: image-url("/fc-webicon-quora-s.png"); }
-.svg .fc-webicon.quora { background: image-url("/fc-webicon-quora.svg"); }
-
-/* Orkut */
-.no-svg .fc-webicon.orkut { background: image-url("/fc-webicon-orkut-m.png"); }
-.no-svg .fc-webicon.orkut.large { background: image-url("/fc-webicon-orkut.png"); }
-.no-svg .fc-webicon.orkut.small { background: image-url("/fc-webicon-orkut-s.png"); }
-.svg .fc-webicon.orkut { background: image-url("/fc-webicon-orkut.svg"); }
-
-/* Renren */
-.no-svg .fc-webicon.renren { background: image-url("/fc-webicon-renren-m.png"); }
-.no-svg .fc-webicon.renren.large { background: image-url("/fc-webicon-renren.png"); }
-.no-svg .fc-webicon.renren.small { background: image-url("/fc-webicon-renren-s.png"); }
-.svg .fc-webicon.renren { background: image-url("/fc-webicon-renren.svg"); }
-
-/* Rdio */
-.no-svg .fc-webicon.rdio { background: image-url("/fc-webicon-rdio-m.png"); }
-.no-svg .fc-webicon.rdio.large { background: image-url("/fc-webicon-rdio.png"); }
-.no-svg .fc-webicon.rdio.small { background: image-url("/fc-webicon-rdio-s.png"); }
-.svg .fc-webicon.rdio { background: image-url("/fc-webicon-rdio.svg"); }
-
-/* RSS */
-.no-svg .fc-webicon.rss { background: image-url("/fc-webicon-rss-m.png"); }
-.no-svg .fc-webicon.rss.large { background: image-url("/fc-webicon-rss.png"); }
-.no-svg .fc-webicon.rss.small { background: image-url("/fc-webicon-rss-s.png"); }
-.svg .fc-webicon.rss { background: image-url("/fc-webicon-rss.svg"); }
-
-/* Skitch */
-.no-svg .fc-webicon.skitch { background: image-url("/fc-webicon-skitch-m.png"); }
-.no-svg .fc-webicon.skitch.large { background: image-url("/fc-webicon-skitch.png"); }
-.no-svg .fc-webicon.skitch.small { background: image-url("/fc-webicon-skitch-s.png"); }
-.svg .fc-webicon.skitch { background: image-url("/fc-webicon-skitch.svg"); }
-
-/* Skype */
-.no-svg .fc-webicon.skype { background: image-url("/fc-webicon-skype-m.png"); }
-.no-svg .fc-webicon.skype.large { background: image-url("/fc-webicon-skype.png"); }
-.no-svg .fc-webicon.skype.small { background: image-url("/fc-webicon-skype-s.png"); }
-.svg .fc-webicon.skype { background: image-url("/fc-webicon-skype.svg"); }
-
-/* SoundCloud */
-.no-svg .fc-webicon.soundcloud { background: image-url("/fc-webicon-soundcloud-m.png"); }
-.no-svg .fc-webicon.soundcloud.large { background: image-url("/fc-webicon-soundcloud.png"); }
-.no-svg .fc-webicon.soundcloud.small { background: image-url("/fc-webicon-soundcloud-s.png"); }
-.svg .fc-webicon.soundcloud { background: image-url("/fc-webicon-soundcloud.svg"); }
-
-/* Spotify */
-.no-svg .fc-webicon.spotify { background: image-url("/fc-webicon-spotify-m.png"); }
-.no-svg .fc-webicon.spotify.large { background: image-url("/fc-webicon-spotify.png"); }
-.no-svg .fc-webicon.spotify.small { background: image-url("/fc-webicon-spotify-s.png"); }
-.svg .fc-webicon.spotify { background: image-url("/fc-webicon-spotify.svg"); }
-
-/* StumbleUpon! */
-.no-svg .fc-webicon.stumbleupon { background: image-url("/fc-webicon-stumbleupon-m.png"); }
-.no-svg .fc-webicon.stumbleupon.large { background: image-url("/fc-webicon-stumbleupon.png"); }
-.no-svg .fc-webicon.stumbleupon.small { background: image-url("/fc-webicon-stumbleupon-s.png"); }
-.svg .fc-webicon.stumbleupon { background: image-url("/fc-webicon-stumbleupon.svg"); }
-
-/* Trip Advisor */
-.no-svg .fc-webicon.tripadvisor { background: image-url("/fc-webicon-tripadvisor-m.png"); }
-.no-svg .fc-webicon.tripadvisor.large { background: image-url("/fc-webicon-tripadvisor.png"); }
-.no-svg .fc-webicon.tripadvisor.small { background: image-url("/fc-webicon-tripadvisor-s.png"); }
-.svg .fc-webicon.tripadvisor { background: image-url("/fc-webicon-tripadvisor.svg"); }
-
-/* Tumblr */
-.no-svg .fc-webicon.tumblr { background: image-url("/fc-webicon-tumblr-m.png"); }
-.no-svg .fc-webicon.tumblr.large { background: image-url("/fc-webicon-tumblr.png"); }
-.no-svg .fc-webicon.tumblr.small { background: image-url("/fc-webicon-tumblr-s.png"); }
-.svg .fc-webicon.tumblr { background: image-url("/fc-webicon-tumblr.svg"); }
-
-/* Twitter */
-.no-svg .fc-webicon.twitter { background: image-url("/fc-webicon-twitter-m.png"); }
-.no-svg .fc-webicon.twitter.large { background: image-url("/fc-webicon-twitter.png"); }
-.no-svg .fc-webicon.twitter.small { background: image-url("/fc-webicon-twitter-s.png"); }
-.svg .fc-webicon.twitter { background: image-url("/fc-webicon-twitter.svg"); }
-
-/* Vimeo */
-.no-svg .fc-webicon.vimeo { background: image-url("/fc-webicon-vimeo-m.png"); }
-.no-svg .fc-webicon.vimeo.large { background: image-url("/fc-webicon-vimeo.png"); }
-.no-svg .fc-webicon.vimeo.small { background: image-url("/fc-webicon-vimeo-s.png"); }
-.svg .fc-webicon.vimeo { background: image-url("/fc-webicon-vimeo.svg"); }
-
-/* Sina Weibo */
-.no-svg .fc-webicon.weibo { background: image-url("/fc-webicon-weibo-m.png"); }
-.no-svg .fc-webicon.weibo.large { background: image-url("/fc-webicon-weibo.png"); }
-.no-svg .fc-webicon.weibo.small { background: image-url("/fc-webicon-weibo-s.png"); }
-.svg .fc-webicon.weibo { background: image-url("/fc-webicon-weibo.svg"); }
-
-/* Wordpress */
-.no-svg .fc-webicon.wordpress { background: image-url("/fc-webicon-wordpress-m.png"); }
-.no-svg .fc-webicon.wordpress.large { background: image-url("/fc-webicon-wordpress.png"); }
-.no-svg .fc-webicon.wordpress.small { background: image-url("/fc-webicon-wordpress-s.png"); }
-.svg .fc-webicon.wordpress { background: image-url("/fc-webicon-wordpress.svg"); }
-
-/* Yelp! */
-.no-svg .fc-webicon.yelp { background: image-url("/fc-webicon-yelp-m.png"); }
-.no-svg .fc-webicon.yelp.large { background: image-url("/fc-webicon-yelp"); }
-.no-svg .fc-webicon.yelp.small { background: image-url("/fc-webicon-yelp-s.png"); }
-.svg .fc-webicon.yelp { background: image-url("/fc-webicon-yelp.svg"); }
-
-/* YouTube */
-.no-svg .fc-webicon.youtube { background: image-url("/fc-webicon-youtube-m.png"); }
-.no-svg .fc-webicon.youtube.large { background: image-url("/fc-webicon-youtube.png"); }
-.no-svg .fc-webicon.youtube.small { background: image-url("/fc-webicon-youtube-s.png"); }
-.svg .fc-webicon.youtube { background: image-url("/fc-webicon-youtube.svg"); }
-
-/* YouVersion */
-.no-svg .fc-webicon.youversion { background: image-url("/fc-webicon-youversion-m.png"); }
-.no-svg .fc-webicon.youversion.large { background: image-url("/fc-webicon-youversion.png"); }
-.no-svg .fc-webicon.youversion.small { background: image-url("/fc-webicon-youversion-s.png"); }
-.svg .fc-webicon.youversion { background: image-url("/fc-webicon-youversion.svg"); }
-
-/* Zerply */
-.no-svg .fc-webicon.zerply { background: image-url("/fc-webicon-zerply-m.png"); }
-.no-svg .fc-webicon.zerply.large { background: image-url("/fc-webicon-zerply.png"); }
-.no-svg .fc-webicon.zerply.small { background: image-url("/fc-webicon-zerply-s.png"); }
-.svg .fc-webicon.zerply { background: image-url("/fc-webicon-zerply.svg"); }
+.fc-webicon.behance { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") 0px -9px no-repeat; }
+.fc-webicon.behance.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -30px -14px no-repeat; }
+.fc-webicon.behance.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -50px 0px no-repeat; }
+.fc-webicon.creativecloud { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -98px -9px no-repeat; }
+.fc-webicon.creativecloud.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -128px -14px no-repeat; }
+.fc-webicon.creativecloud.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -148px 0px no-repeat; }
+.fc-webicon.dribbble { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -196px -9px no-repeat; }
+.fc-webicon.dribbble.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -226px -14px no-repeat; }
+.fc-webicon.dribbble.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -246px 0px no-repeat; }
+.fc-webicon.dropbox { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -294px -9px no-repeat; }
+.fc-webicon.dropbox.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -324px -14px no-repeat; }
+.fc-webicon.dropbox.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -344px 0px no-repeat; }
+.fc-webicon.evernote { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -392px -9px no-repeat; }
+.fc-webicon.evernote.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -422px -14px no-repeat; }
+.fc-webicon.evernote.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -442px 0px no-repeat; }
+.fc-webicon.facebook { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -490px -9px no-repeat; }
+.fc-webicon.facebook.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -520px -14px no-repeat; }
+.fc-webicon.facebook.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -540px 0px no-repeat; }
+.fc-webicon.flickr { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -588px -9px no-repeat; }
+.fc-webicon.flickr.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -618px -14px no-repeat; }
+.fc-webicon.flickr.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -638px 0px no-repeat; }
+.fc-webicon.foursquare { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -686px -9px no-repeat; }
+.fc-webicon.foursquare.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -716px -14px no-repeat; }
+.fc-webicon.foursquare.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -736px 0px no-repeat; }
+.fc-webicon.github { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -784px -9px no-repeat; }
+.fc-webicon.github.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -814px -14px no-repeat; }
+.fc-webicon.github.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -834px 0px no-repeat; }
+.fc-webicon.googleplus { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -882px -9px no-repeat; }
+.fc-webicon.googleplus.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -912px -14px no-repeat; }
+.fc-webicon.googleplus.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -932px 0px no-repeat; }
+.fc-webicon.icloud { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -980px -9px no-repeat; }
+.fc-webicon.icloud.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -1010px -14px no-repeat; }
+.fc-webicon.icloud.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -1030px 0px no-repeat; }
+.fc-webicon.instagram { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -1078px -9px no-repeat; }
+.fc-webicon.instagram.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -1108px -14px no-repeat; }
+.fc-webicon.instagram.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -1128px 0px no-repeat; }
+.fc-webicon.lastfm { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -1176px -9px no-repeat; }
+.fc-webicon.lastfm.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -1206px -14px no-repeat; }
+.fc-webicon.lastfm.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -1226px 0px no-repeat; }
+.fc-webicon.linkedin { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -1274px -9px no-repeat; }
+.fc-webicon.linkedin.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -1304px -14px no-repeat; }
+.fc-webicon.linkedin.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -1324px 0px no-repeat; }
+.fc-webicon.mail { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -1372px -9px no-repeat; }
+.fc-webicon.mail.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -1402px -14px no-repeat; }
+.fc-webicon.mail.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -1422px 0px no-repeat; }
+.fc-webicon.mixi { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -1470px -9px no-repeat; }
+.fc-webicon.mixi.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -1500px -14px no-repeat; }
+.fc-webicon.mixi.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -1520px 0px no-repeat; }
+.fc-webicon.msn { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -1568px -9px no-repeat; }
+.fc-webicon.msn.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -1598px -14px no-repeat; }
+.fc-webicon.msn.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -1618px 0px no-repeat; }
+.fc-webicon.orkut { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -1666px -9px no-repeat; }
+.fc-webicon.orkut.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -1696px -14px no-repeat; }
+.fc-webicon.orkut.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -1716px 0px no-repeat; }
+.fc-webicon.pinterest { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -1764px -9px no-repeat; }
+.fc-webicon.pinterest.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -1794px -14px no-repeat; }
+.fc-webicon.pinterest.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -1814px 0px no-repeat; }
+.fc-webicon.quora { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -1862px -9px no-repeat; }
+.fc-webicon.quora.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -1892px -14px no-repeat; }
+.fc-webicon.quora.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -1912px 0px no-repeat; }
+.fc-webicon.rdio { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -1960px -9px no-repeat; }
+.fc-webicon.rdio.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -1990px -14px no-repeat; }
+.fc-webicon.rdio.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -2010px 0px no-repeat; }
+.fc-webicon.renren { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -2058px -9px no-repeat; }
+.fc-webicon.renren.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -2088px -14px no-repeat; }
+.fc-webicon.renren.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -2108px 0px no-repeat; }
+.fc-webicon.rss { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -2156px -9px no-repeat; }
+.fc-webicon.rss.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -2186px -14px no-repeat; }
+.fc-webicon.rss.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -2206px 0px no-repeat; }
+.fc-webicon.skitch { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -2254px -9px no-repeat; }
+.fc-webicon.skitch.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -2284px -14px no-repeat; }
+.fc-webicon.skitch.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -2304px 0px no-repeat; }
+.fc-webicon.skype { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -2352px -9px no-repeat; }
+.fc-webicon.skype.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -2382px -14px no-repeat; }
+.fc-webicon.skype.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -2402px 0px no-repeat; }
+.fc-webicon.soundcloud { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -2450px -9px no-repeat; }
+.fc-webicon.soundcloud.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -2480px -14px no-repeat; }
+.fc-webicon.soundcloud.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -2500px 0px no-repeat; }
+.fc-webicon.spotify { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -2548px -9px no-repeat; }
+.fc-webicon.spotify.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -2578px -14px no-repeat; }
+.fc-webicon.spotify.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -2598px 0px no-repeat; }
+.fc-webicon.stumbleupon { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -2646px -9px no-repeat; }
+.fc-webicon.stumbleupon.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -2676px -14px no-repeat; }
+.fc-webicon.stumbleupon.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -2696px 0px no-repeat; }
+.fc-webicon.tripadvisor { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -2744px -9px no-repeat; }
+.fc-webicon.tripadvisor.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -2774px -14px no-repeat; }
+.fc-webicon.tripadvisor.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -2794px 0px no-repeat; }
+.fc-webicon.tumblr { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -2842px -9px no-repeat; }
+.fc-webicon.tumblr.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -2872px -14px no-repeat; }
+.fc-webicon.tumblr.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -2892px 0px no-repeat; }
+.fc-webicon.twitter { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -2940px -9px no-repeat; }
+.fc-webicon.twitter.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -2970px -14px no-repeat; }
+.fc-webicon.twitter.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -2990px 0px no-repeat; }
+.fc-webicon.vimeo { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -3038px -9px no-repeat; }
+.fc-webicon.vimeo.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -3068px -14px no-repeat; }
+.fc-webicon.vimeo.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -3088px 0px no-repeat; }
+.fc-webicon.weibo { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -3136px -9px no-repeat; }
+.fc-webicon.weibo.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -3166px -14px no-repeat; }
+.fc-webicon.weibo.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -3186px 0px no-repeat; }
+.fc-webicon.wordpress { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -3234px -9px no-repeat; }
+.fc-webicon.wordpress.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -3264px -14px no-repeat; }
+.fc-webicon.wordpress.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -3284px 0px no-repeat; }
+.fc-webicon.yelp { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -3332px -9px no-repeat; }
+.fc-webicon.yelp.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -3362px -14px no-repeat; }
+.fc-webicon.yelp.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -3382px 0px no-repeat; }
+.fc-webicon.youtube { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -3430px -9px no-repeat; }
+.fc-webicon.youtube.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -3460px -14px no-repeat; }
+.fc-webicon.youtube.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -3480px 0px no-repeat; }
+.fc-webicon.youversion { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -3528px -9px no-repeat; }
+.fc-webicon.youversion.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -3558px -14px no-repeat; }
+.fc-webicon.youversion.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -3578px 0px no-repeat; }
+.fc-webicon.zerply { width: 30px; height: 30px; background: image-url("foundation-social-web-icons.png") -3626px -9px no-repeat; }
+.fc-webicon.zerply.small { width: 20px; height: 20px; background: image-url("foundation-social-web-icons.png") -3656px -14px no-repeat; }
+.fc-webicon.zerply.large { width: 48px; height: 48px; background: image-url("foundation-social-web-icons.png") -3676px 0px no-repeat; }
