@@ -9,7 +9,7 @@ Add `foundation-social-web-icons-rails` gem to the `assets` group in your `Gemfi
       gem 'sass-rails', "  ~> x.x.x"
       gem 'coffee-rails', "~> x.x.x"
       gem 'uglifier'
-      gem 'foundation-social-web-icons-rails'
+      gem 'foundation-social-web-icons-rails', git: "git://github.com/jclusso/foundation-social-web-icons-rails.git"
     end
 
 Then in your `app/assets/stylesheets/application.css`:
